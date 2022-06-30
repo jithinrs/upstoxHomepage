@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar bg-white navbar-expand-lg sticky-top">
+    <div class="container test1 ">
+      <a href="#" class="navbar-brand"><img width="90px" src="images/upstox-logo-primary.svg" alt=""></a>
+      <i class="fa-solid fa-magnifying-glass d-lg-none search-on-toggle"></i>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <a class="offcanvas-title" href="#"><img width="90px" src="images/upstox-logo-white.svg" alt=""></a>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link headlink active" href="#">Invest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headlink active" href="#">Trade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headlink active" href="#">Learn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headlink active" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headlink active" href="#">Partner with us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headlink active" href="#">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex justify-content-between" role="search">
+            <input type="text" class="navi-signup" placeholder="search any stock">
+            <button id="button-toggl1" class="loginbutton">Sign up</button>
+            <button id="button-toggl2" class="loginbutton">Log in</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </nav>
+  <header class="container">
+    <div class="row">
+      <div class="header-img-div col order-lg-2">
+        <img class="header-img header-img-lg" src="images/homepage-hero-1cr.png" alt="">
+      </div>
+      <div class="col order-lg-1 header-content">
+        <div class="header-main-text">
+          <div class="h1 font-weight-bold header-text">Own your future with Upstox</div>
+          <div class="fs4 header-text">Investing and trading made simple, affordable and accessible for you.</div>
+        </div>
+        <div class="header-input">
+          <div class="header-borderless-input"><input type="text" placeholder="Enter your number"></div>
+          <div class="button-invest-top"><button class="rounded-3">Start Investing</button></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="container mt-4" id="section-cards">
+    <div class="section-card-box section-card-box-large">
+      <div class="card-head card-head-large">1 cr+</div>
+      <div class="card-text">Happy Investors</div>
+    </div>
+    <div class="section-card-box section-card-box-large">
+      <div class="card-head card-head-large">4.4+ <img width="20px" src="images/star-icon.png" alt=""></div>
+      <div class="card-text">Avg. App Rating</div>
+    </div>
+  </section>
+  <div class="container mt-4">
+    <div class="h1 text-center">Backed by the best</div>
+  </div>
+  <div class="ratan-tiger d-flex flex-row justify-content-center mt-4">
+    <div class="ratan-tiger-img"><img src="images/ratan-tata-1.png" alt=""></div>
+    <div class="ratan-tiger-img"><img src="images/tiger_global_home-1.png" alt=""></div>
+  </div>
+  <div class="ratan-tiger-text container mt-4">
+    <div class="fs-4 text-center">Upstox is backed by marquee investors like Mr. Ratan Tata & Tiger Global Management
+    </div>
+  </div>
+  <div class="container d-flex justify-content-center mt-5">
+    <button type="button" class="btn btn-primary btn-lg learn-more">Learn more</button>
+  </div>
+  <div id="four-tab-align" class="container"></div>
+  <section class="container">
+    <div class="section2-redhead text-uppercase text-center mt-5 text-danger h6">
+      Asset classes
+    </div>
+    <div class="text-center m-3 h2">Ways to grow your wealth</div>
+  </section>
+  <section id="section2tab" class="container">
+    <ul class="nav nav-tabs nav-pills nav-justified testrun">
+      <li id="stock-tab" class="nav-item myactivehead"><a class="nav-link fs-4 fw-semibold myactivetab"
+          href="#four-tab-align">Stocks</a></li>
+      <li id="ipos-tab" class="nav-item"><a class="nav-link fs-4 fw-semibold" href="#four-tab-align">IPOs</a></li>
+      <li id="mutual-tab" class="nav-item"><a class="nav-link fs-4 fw-semibold" href="#four-tab-align">Mutual Funds</a>
+      </li>
+      <li id="future-tab" class="nav-item"><a class="nav-link fs-4 fw-semibold" href="#four-tab-align">Futures &
+          Options</a></li>
+    </ul>
+  </section>
+  <section id="section-four-cards" class="container tab-content my-5">
+    <div class="tab-pane active row" id="stocks">
+      <div class="col"><img class="nav-tab-image" src="images/grow-stock.png" alt=""></div>
+      <div class="col d-flex flex-column justify-content-evenly">
+        <div class="h2 text-start">Stocks</div>
+        <div>
+          <ul>
+            <li>Discover stocks with smart lists and smart filters</li>
+            <li>Access key company information</li>
+            <li>Buy and sell stocks in a single click</li>
+          </ul>
+        </div>
+        <div class="button-invest"><button class="rounded-3">Start Investing</button></div>
+      </div>
+    </div>
+    <div class="tab-pane active row d-none" id="ipos">
+      <div class="col"><img class="nav-tab-image" src="images/grow-IPOs.png" alt=""></div>
+      <div class="col d-flex flex-column justify-content-evenly">
+        <div class="h2 text-start">IPOs</div>
+        <div>
+          <ul>
+            <li>24/7 IPO applications</li>
+            <li>Apply and pre-apply via WhatsApp</li>
+            <li>Zero commission investing</li>
+          </ul>
+        </div>
+        <div class="button-invest"><button class="rounded-3">Start Investing</button></div>
+      </div>
+    </div>
+    <div class="tab-pane active row d-none" id="mutual-funds">
+      <div class="col"><img class="nav-tab-image" src="images/grow-mutual-fund.png" alt=""></div>
+      <div class="col d-flex flex-column justify-content-evenly">
+        <div class="h2 text-start">Mutual Funds</div>
+        <div>
+          <ul>
+            <li>Zero commission investing</li>
+            <li>SIP investments starting at ₹100/month</li>
+            <li>Discover tax-saving funds easily</li>
+          </ul>
+        </div>
+        <div class="button-invest"><button class="rounded-3">Start Investing</button></div>
+      </div>
+    </div>
+    <div class="tab-pane active row d-none" id="futures">
+      <div class="col"><img class="nav-tab-image" src="images/grow-future.png" alt=""></div>
+      <div class="col d-flex flex-column justify-content-evenly">
+        <div class="h2 text-start">Futures & Options</div>
+        <div>
+          <ul>
+            <li>Pay just up to ₹20* per order</li>
+            <li>Switch between Trading view & Charts IQ</li>
+            <li>Place GTT orders till contract expiry</li>
+          </ul>
+        </div>
+        <div class="button-invest"><button class="rounded-3">Start Investing</button></div>
+      </div>
+    </div>
+  </section>
+  <section id="section-pricing" class=" container text-light text-start position-relative rounded-5 ">
+    <div class="position-absolute top-0 end-0 translate-middle d-none d-md-block"><img src="images/pricing-tree.png"
+        alt=""></div>
+    <div class="purple-pricing-div ">
+      <div class="purple-header h6 mt-3">PRICING</div>
+      <div class="test165 display-5 fw-semibold">Flat fees, no hidden charges.</div>
+    </div>
+    <div class="section-pricing-cards container row">
+      <div class="col-sm">
+        <div class="display-4 fw-semibold">₹0</div>
+        <div class="h6">Commisions</div>
+        <div class="fs-6">On investing in Mutual Funds and IPOs</div>
+      </div>
+      <div class="col-sm">
+        <div class="display-4 fw-semibold">₹0</div>
+        <div class="h6">Account Maintenance</div>
+        <div class="fs-6">To mantain your Demat Account</div>
+      </div>
+      <div class="col-sm">
+        <div class="display-4 fw-semibold">₹20</div>
+        <div class="h6">Brokerage</div>
+        <div class="fs-6">On Equity, F&O, commodity and currency orders</div>
+      </div>
+    </div>
+    <div class="text-center card-button-div"><button class="card-button rounded-3 fw-semibold">Start Investing</button>
+    </div>
+  </section>
+  <section class="container">
+    <div class="section2-redhead text-uppercase text-center mt-5 text-danger h6">
+      Benefits
+    </div>
+    <div class="text-center m-3 h2">We make investing work for you</div>
+  </section>
+  <section class="animation-cards container">
+    <div class="row g-3">
+      <div class="rocket-card col-xl-6 rounded-4">
+        <div class="d-flex justify-content-end"><img src="images/PAPERLESS.png" alt=""></div>
+        <div class="h6">PAPERLESS</div>
+        <div class="fs-2 fw-semibold">Seamless account opening</div>
+        <div class="fs-4">Requires PAN + Aadhaar + eKYC only</div>
+      </div>
+      <div class="withdrawel-card col-xl-6 rounded-4">
+        <div class="d-flex justify-content-end"><img width="250px" src="images/benefit-card.png" alt=""></div>
+        <div class="h6">FAST</div>
+        <div class="fs-2 fw-semibold">Instant withdrawals</div>
+        <div class="fs-4">Transfer funds from Upstox to your bank account in just 15 minutes</div>
+      </div>
+      <div class="easy-card rounded-4">
+        <div class="d-flex justify-content-end"><img width="250px" src="images/benefit-account-01.png" alt=""></div>
+        <div class="h6">EASY</div>
+        <div class="fs-2 fw-semibold">Learn. Decide. Invest.</div>
+        <div class="fs-4">Learn all about investments from experts. Make informed decisions using smart tools. Invest
+          easily with just a click.</div>
+      </div>
+    </div>
+  </section>
+  <div class="button-invest d-flex justify-content-center mt-5"><button class="rounded-3">Start Investing</button></div>
+  <section class="container mb-5">
+    <div class="section2-redhead text-uppercase text-center mt-5 text-danger h6">
+      Learning
+    </div>
+    <div class="text-center m-3 h2">We simplify investments for you</div>
+    <div class="text-center m-3 fs-5">Everything you need to know about investments in under a few minutes from our
+      experts.</div>
+  </section>
+  <section class="simple-cards container my-5">
+    <div class="row gy-3 ">
+      <div class="col-lg-4">
+        <div class="simple-cards-box rounded-3 ">
+          <div class="h6 purple-header">LEARN</div>
+          <div class="fs-4 fw-semibold simple-card-head">Basics of Investments #LearnWithUpstox ft. Pranjal Kamra</div>
+          <div class="fs-5">A video series breaking down the A-Z of investing.</div>
+          <div class="simple-card-arrow "><img src="images/right-arrow.svg" alt=""></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="simple-cards-box rounded-3 ">
+          <div class="h6 purple-header">WATCH</div>
+          <div class="fs-4 fw-semibold simple-card-head">Market Analysis #LearnWithUpstox ft. Rachana Ranade</div>
+          <div class="fs-5">A video series to learn everything about Ratio Analysis easily.</div>
+          <div class="simple-card-arrow"><img src="images/right-arrow.svg" alt=""></div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="simple-cards-box rounded-3 ">
+          <div class="h6 purple-header">LEARN</div>
+          <div class="fs-4 fw-semibold simple-card-head">Technical Analysis #LearnWithUpstox ft. Anish Singh Thakur
+          </div>
+          <div class="fs-5">A video series to learn how to analyse stocks using charts.</div>
+          <div class="simple-card-arrow"><img src="images/right-arrow.svg" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="my-5 text-center h2 fw-semibold">In the Press</div>
+  <section class="container">
+    <div class="row container">
+      <img class="col-lg-2 col-md-4 col-6" src="images/news-1.png" alt="">
+      <img class="col-lg-2 col-md-4 col-6" src="images/news-2.png" alt="">
+      <img class="col-lg-2 col-md-4 col-6" src="images/news-3.png" alt="">
+      <img class="col-lg-2 col-md-4 col-6" src="images/news-4.png" alt="">
+      <img class="col-lg-2 col-md-4 col-6" src="images/news-5.png" alt="">
+      <img class="col-lg-2 col-md-4 col-6" src="images/news-6.png" alt="">
+    </div>
+  </section>
+  <section class="section-column-pictures container">
+    <div class="row">
+      <div class="col-4">
+        <div><img class="img-fluid" src="images/invest.png" alt=""></div>
+        <div class="section-pictures-blank card-color-blue"></div>
+      </div>
+      <div class="col-4">
+        <div class="section-pictures-blank card-color-red"></div>
+        <div><img class="img-fluid" src="images/invest2.png" alt=""></div>
+      </div>
+      <div class="col-4">
+        <div><img class="img-fluid" src="images/invest3.png" alt=""></div>
+        <div class="section-pictures-blank card-color-brown"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

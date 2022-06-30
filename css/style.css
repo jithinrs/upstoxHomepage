@@ -1,0 +1,295 @@
+.test1 {
+    position: relative;
+}
+
+.test1 i {
+    position:absolute;
+    right: 100px;
+}
+
+.offcanvas-body ul li a {
+    color: white;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.add-shadow{
+    box-shadow: 0px 0px 8px 2px rgb(184, 184, 184);
+}
+
+.loginbutton{
+    margin-right: 1vh;
+    height: 38px;
+    width: 100px;
+    line-height: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #43165c;
+    color: white
+}
+.navi-signup{
+    margin-right: 1vh;
+    height: 28px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    background-color:lightgray;
+    padding-left: 10px;
+    transform: translate(0, 20%);
+}
+
+
+.off-canvas-purple {
+    background-color: #43165c;
+}
+
+.btn-close:hover {
+    color: white;
+}
+
+header{
+    margin-top: 40px;
+}
+
+.header-img-lg {
+    width: 460px;
+}
+
+.header-img-md {
+    width: 360px;
+}
+
+.header-img-mob {
+    width: 223px;
+}
+
+
+.header-img-div{
+    display: flex;
+    justify-content: center;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+}
+
+
+.header-text-align {
+    text-align: center;
+}
+
+.header-input {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.header-borderless-input input{
+    border: none;
+    border-bottom: solid 3px #43165c;
+}
+
+.header-borderless-input input:focus{
+    outline: none;
+}
+
+.button-invest-top button{
+    border: none;
+    background-color: #43165c;
+    color: white;
+    height: 50px;
+    width: 124px;
+}
+
+.button-invest button {
+    border: none;
+    background-color: #43165c;
+    color: white;
+    height: 50px;
+    width: 164px;
+}
+
+.button-invest button:hover{
+    filter: brightness(150%);
+}
+
+#section-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8%;
+}
+
+.section-card-box {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.section-card-box-large {
+    width: 352px;
+    height: 128px;
+}
+
+.card-head-large{
+    font-size: 60px;
+}
+
+.card-head-mob{
+    font-size: 42px;
+}
+
+.ratan-tiger {
+    gap: 5%;
+}
+
+.ratan-tiger-text{
+    max-width: 720px !important;
+}
+
+.ratan-tiger-image{
+    width: 100px;
+}
+
+.learn-more {
+    background-color: #43165c !important;
+}
+
+.myactivehead {
+    border-bottom: #43165c 5px solid;
+}
+
+#section2tab{
+    flex-wrap: inherit;
+}
+
+.testrun li a {
+    color:#8f799b ;
+}
+
+.testrun li a:hover{
+    color: #8f799b;
+}
+
+.myactivetab{
+    color: #43165c !important;
+}
+
+
+#stocks, #ipos, #mutual-funds, #futures{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav-tab-image-mob{
+    width: 266px;
+}
+
+#section-pricing{
+    
+    margin-top: 200px !important;
+    background-color: #afa8e1;
+}
+
+.purple-pricing-div{
+    padding-top: 30px;
+    padding-left: 20px;
+    
+}
+
+.purple-header {
+    color: #43165c !important;
+}
+
+.section-pricing-cards{
+    padding-top: 50px;
+}
+
+.card-button {
+    border: none;
+    width: 164px;
+    height: 52px;
+    color: #43165c;
+}
+
+.card-button:hover{
+    background-color: #43165c;
+    color: white;
+}
+
+.card-button-div{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.animation-cards {
+    margin-top: 90px;
+}
+
+.rocket-card{
+    background-color: #ffeacf;
+}
+
+.withdrawel-card{
+    background-color: #ff9c7f;
+}
+
+.easy-card{
+    background-color: #7acece;
+}
+
+.simple-cards-box{
+    background-color: #d0bcff;
+    border: black 1px solid;
+    padding: 10px;
+}
+
+.simple-card-head{
+    padding: 10px 0px;
+}
+
+.simple-card-arrow{
+    width: 50px;
+    height: 50px;
+    border: black 2px solid;
+    border-radius: 50%;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-column-pictures{
+    max-width: 930px !important;
+}
+
+.section-pictures-blank{
+    height: 105px;
+    border: none;
+    border-radius: 20px;
+    background-color: #43165c;
+}
+
+.card-color-blue{
+    background-color: #7acece;
+    margin-top: 10px;
+}
+
+.card-color-red{
+    background-color: #ff9c7f;
+    margin-bottom: 10px;
+}
+
+.card-color-brown{
+    background-color: #eca74e;
+    margin-top: 10px;
+}
