@@ -248,7 +248,7 @@ header{
 }
 
 .simple-cards-box{
-    background-color: #d0bcff;
+    background-color: #edeae6;
     border: black 1px solid;
     padding: 10px;
 }
@@ -292,4 +292,27 @@ header{
 .card-color-brown{
     background-color: #eca74e;
     margin-top: 10px;
+}
+
+.footer-main{
+    background-color: #43165c;
+}
+
+.footer-lists ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-lists ul li{
+    list-style: none;
+    color: white;
+}
+
+.footer-lists ul li:hover{
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
+.footer-head{
+    color: #a09568;
 }
